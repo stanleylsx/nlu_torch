@@ -45,7 +45,7 @@ class Train:
         no_decay = ['bias', 'LayerNorm.weight']
         params = [
             {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)],
-             'weight_decay':  0.0},
+             'weight_decay': 0.0},
             {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
         ]
 
@@ -209,7 +209,7 @@ class Train:
                         self.configs['patient']))
                     self.logger.info('overall best f1 is {} at {} epoch'.format(best_f1, best_epoch))
                     self.logger.info('total training time consumption: %.3f(min)' % (
-                            (time.time() - very_start_time) / 60))
+                        (time.time() - very_start_time) / 60))
                     return
         self.logger.info('overall best f1 is {} at {} epoch'.format(best_f1, best_epoch))
         self.logger.info('total training time consumption: %.3f(min)' % ((time.time() - very_start_time) / 60))
@@ -252,7 +252,7 @@ class Train:
 
         for class_id, count in counts.items():
             f1, precision, recall = 2 * count['A'] / (
-                    count['B'] + count['C']), count['A'] / count['B'], count['A'] / count['C']
+                count['B'] + count['C']), count['A'] / count['B'], count['A'] / count['C']
             class_name = self.data_manager.entity_reverse_categories[class_id]
             results_of_each_entity[class_name]['f1'] = f1
             results_of_each_entity[class_name]['precision'] = precision
@@ -263,8 +263,8 @@ class Train:
         for entity, performance in results_of_each_entity.items():
             entity_f1 += performance['f1']
             # 打印每个类别的指标
-            self.logger.info('entity_name: %s, precision: %.4f, recall: %.4f, f1: %.4f'
-                        % (entity, performance['precision'], performance['recall'], performance['f1']))
+            self.logger.info('entity_name: %s, precision: %.4f, recall: %.4f, f1: %.4f' % (
+                entity, performance['precision'], performance['recall'], performance['f1']))
         # 这里算得是所有类别的平均f1值
         entity_f1 = entity_f1 / len(results_of_each_entity)
 
@@ -279,8 +279,8 @@ class Train:
                 continue
             if map_k in self.data_manager.intent_reverse_classes:
                 classes_val_str += (
-                        self.data_manager.intent_reverse_classes[map_k] + ': ' + str(each_intent_classes[k]) + '\n')
+                    self.data_manager.intent_reverse_classes[map_k] + ': ' + str(each_intent_classes[k]) + '\n')
         self.logger.info(classes_val_str)
         intent_f1 = measures['f1']
-        f1 = (intent_f1 + entity_f1)/2
+        f1 = (intent_f1 + entity_f1) / 2
         return f1

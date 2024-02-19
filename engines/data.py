@@ -129,4 +129,3 @@ class DataManager:
         token_ids = torch.unsqueeze(torch.LongTensor(token_ids), 0)
         attention_mask = torch.unsqueeze(torch.LongTensor(attention_mask), 0)
         return token_ids, attention_mask
-
