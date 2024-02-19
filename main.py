@@ -7,8 +7,7 @@ from loguru import logger
 from engines.utils.setup_seed import setup_seed
 from engines.data import DataManager
 from engines.predict import Predictor
-from loguru import logger
-from configure import *
+from configure import configure, mode, use_cuda, cuda_device
 from pprint import pprint
 import torch
 import os
