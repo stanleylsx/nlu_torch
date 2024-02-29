@@ -32,7 +32,7 @@ configure = {
     # 预测加载方式
     'predict_engine': 'pytorch',
     # 模型保存的文件夹
-    'checkpoints_dir': 'checkpoints/Bert_2023053010',
+    'checkpoints_dir': 'checkpoints/Bert_2024021913',
     # 模型名字
     'model_name': 'nlu.pkl',
     'entity_classes': ['to', 'cc', 'bcc', 'subject', 'content', 'words', 'type', 'style', 'lang',
