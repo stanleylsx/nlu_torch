@@ -5,7 +5,7 @@
 # @Software: VSCode
 from abc import ABC
 from torch import nn
-from configure import configure, mode
+from config import configure, mode
 from transformers import BertModel
 import torch
 
