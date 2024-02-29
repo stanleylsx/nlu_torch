@@ -5,7 +5,7 @@
 # @File : metrics.py
 # @Software: VSCode
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, classification_report
-from configure import configure
+from config import configure
 import numpy as np
 
 
