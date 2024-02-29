@@ -6,7 +6,7 @@
 # @Software: VSCode
 import torch
 import torch.nn.functional as F
-from configure import configure
+from config import configure
 
 
 class FocalLoss(torch.nn.Module):
