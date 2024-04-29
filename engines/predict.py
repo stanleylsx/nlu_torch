@@ -21,7 +21,7 @@ class Predictor:
         self.logger = logger
         self.predict_engine = configs['predict_engine']
         self.checkpoints_dir = configs['checkpoints_dir']
-        self.max_sequence_length = data_manager.max_sequence_length
+        self.max_position_embeddings = data_manager.max_position_embeddings
         if self.predict_engine == 'onnx':
             if str(device) == 'cuda':
                 providers = ['CUDAExecutionProvider']

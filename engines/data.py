@@ -15,7 +15,7 @@ class DataManager:
         self.train_file = self.configs['train_file']
         self.dev_file = self.configs['dev_file']
         self.batch_size = configs['batch_size']
-        self.max_sequence_length = configs['max_sequence_length']
+        self.max_position_embeddings = configs['max_position_embeddings']
 
         self.entity_classes = configs['entity_classes']
         self.entity_categories = {self.entity_classes[index]: index for index in range(0, len(self.entity_classes))}
@@ -57,7 +57,7 @@ class DataManager:
                 end_idx = entity['end_idx']
                 type_class = entity['type']
                 token2char_span_mapping = self.tokenizer(text,
-                                                         max_length=self.max_sequence_length,
+                                                         max_length=self.max_position_embeddings,
                                                          return_offsets_mapping=True,
                                                          add_special_tokens=True,
                                                          padding=True,
@@ -86,7 +86,7 @@ class DataManager:
         """
         predict_results = {}
         token2char_span_mapping = self.tokenizer(text, return_offsets_mapping=True,
-                                                 max_length=self.max_sequence_length,
+                                                 max_length=self.max_position_embeddings,
                                                  truncation=True)['offset_mapping']
         start_mapping = {i: j[0] for i, j in enumerate(token2char_span_mapping) if j != (0, 0)}
         end_mapping = {i: j[-1] - 1 for i, j in enumerate(token2char_span_mapping) if j != (0, 0)}

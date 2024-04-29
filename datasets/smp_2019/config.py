@@ -28,7 +28,7 @@ configure = {
     # 使用的预训练模型
     'ptm': 'hfl/chinese-bert-wwm-ext',
     # 抽取模型方式
-    'slot_model': 'gp',
+    'slot_model': 'bp',
     # 预测加载方式
     'predict_engine': 'pytorch',
     # 模型保存的文件夹

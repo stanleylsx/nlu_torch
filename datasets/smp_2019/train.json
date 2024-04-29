@@ -1,0 +1,5211 @@
+[
+    {
+        "text": "请帮我打开uc",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "uc",
+                "type": "name",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "打开汽车之家",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "汽车之家",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "帮我打开人人",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "人人",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "开微信",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "微信",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "黎宇我要玩中国象棋",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "中国象棋",
+                "type": "name",
+                "start_idx": 5,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "给我打开一下qq",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "qq",
+                "type": "name",
+                "start_idx": 6,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "帮忙打开一下酷狗音乐播放音乐行不",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "酷狗音乐",
+                "type": "name",
+                "start_idx": 6,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "百度浏览器打开",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "百度浏览器",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "搜索手机办公软件",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "办公软件",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "凯立德",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "凯立德",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "打开相机这",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "相机",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "打开qq同步助手",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "qq同步助手",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "打开淘宝购物",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "淘宝购物",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "帮我找到微信",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "微信",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "打开uc二哦",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "uc",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "开启qq",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "qq",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "查询许昌到中山的汽车。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "中山",
+                "type": "Dest",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "许昌",
+                "type": "Src",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "无锡到阜阳怎么坐汽车？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "阜阳",
+                "type": "Dest",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "无锡",
+                "type": "Src",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "去深圳怎么坐车？",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "深圳",
+                "type": "endLoc_city",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "南京到，黄山的汽车。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "黄山",
+                "type": "Dest",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "南京",
+                "type": "Src",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "从无锡市到西安市的汽车。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "西安市",
+                "type": "Dest",
+                "start_idx": 5,
+                "end_idx": 7
+            },
+            {
+                "entity": "无锡市",
+                "type": "Src",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "在合肥怎么坐去南京的汽车",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "南京",
+                "type": "Dest",
+                "start_idx": 7,
+                "end_idx": 8
+            },
+            {
+                "entity": "合肥",
+                "type": "Src",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "北京到成都的汽车时刻表。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "成都",
+                "type": "Dest",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "北京",
+                "type": "Src",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "从台州到金华的汽车。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "金华",
+                "type": "Dest",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "台州",
+                "type": "Src",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "可以帮买火车票吗",
+        "intent": "QUERY",
+        "entities": []
+    },
+    {
+        "text": "我要查找雷迪波尔电影院最新上映的大片",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "雷迪波尔电影院",
+                "type": "theatre",
+                "start_idx": 4,
+                "end_idx": 10
+            }
+        ]
+    },
+    {
+        "text": "给我放一部最新的电影。",
+        "intent": "QUERY",
+        "entities": []
+    },
+    {
+        "text": "电影搜索啊！",
+        "intent": "QUERY",
+        "entities": []
+    },
+    {
+        "text": "搜索合肥左岸电影城。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "合肥左岸电影城",
+                "type": "theatre",
+                "start_idx": 2,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "最近热门的电影。",
+        "intent": "QUERY",
+        "entities": []
+    },
+    {
+        "text": "现在电影院有什么好电影？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "现在",
+                "type": "datetime_time",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "哦哦，最新的电影。",
+        "intent": "QUERY",
+        "entities": []
+    },
+    {
+        "text": "离我最近的电影院。",
+        "intent": "QUERY",
+        "entities": []
+    },
+    {
+        "text": "老马的电话是多少",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "老马",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "把鱼苗的电话号码发给徐景明",
+        "intent": "SENDCONTACTS",
+        "entities": [
+            {
+                "entity": "鱼苗",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 2
+            },
+            {
+                "entity": "徐景明",
+                "type": "receiver",
+                "start_idx": 10,
+                "end_idx": 12
+            }
+        ]
+    },
+    {
+        "text": "张培的电话号码是多少",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "张培",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "查看之丽丽的号码",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "之丽丽",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "把李会计的电话发给小江",
+        "intent": "SENDCONTACTS",
+        "entities": [
+            {
+                "entity": "李会计",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 3
+            },
+            {
+                "entity": "小江",
+                "type": "receiver",
+                "start_idx": 9,
+                "end_idx": 10
+            }
+        ]
+    },
+    {
+        "text": "把刘荣涛的电话发给王华成",
+        "intent": "SENDCONTACTS",
+        "entities": [
+            {
+                "entity": "刘荣涛",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 3
+            },
+            {
+                "entity": "王华成",
+                "type": "receiver",
+                "start_idx": 9,
+                "end_idx": 11
+            }
+        ]
+    },
+    {
+        "text": "哦钢结构的电话是多少",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "哦钢结构",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "把孟蕾的电话发给陈姬",
+        "intent": "SENDCONTACTS",
+        "entities": [
+            {
+                "entity": "孟蕾",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 2
+            },
+            {
+                "entity": "陈姬",
+                "type": "receiver",
+                "start_idx": 8,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "把高建清的号码发给潘青华",
+        "intent": "SENDCONTACTS",
+        "entities": [
+            {
+                "entity": "高建清",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 3
+            },
+            {
+                "entity": "潘青华",
+                "type": "receiver",
+                "start_idx": 9,
+                "end_idx": 11
+            }
+        ]
+    },
+    {
+        "text": "银耳莲子粥怎么做",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "银耳莲子粥",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "蛋黄焗薯条怎么做",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "蛋黄焗薯条",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "扬州炒饭",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "扬州炒饭",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "糖醋鲤鱼怎么做啊？你只负责吃，c则c。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "糖醋鲤鱼",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "素鸡",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "素鸡",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "萝卜炖排骨汤怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "萝卜炖排骨汤",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "我说吃飞蟹，怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "飞蟹",
+                "type": "ingredient",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "黑芝麻怎么炒？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "黑芝麻",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "板栗怎么煮？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "板栗",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "鱼香肉丝，怎么炒？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "鱼香肉丝",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "搜索烤饼的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "烤饼",
+                "type": "ingredient",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "小白菜拌豆腐怎么做呀？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "白菜拌豆腐",
+                "type": "dishName",
+                "start_idx": 1,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "猪肉丸子汤怎么做啊？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "猪肉丸子汤",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "做苹果麦片粥需要哪写材料？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "苹果麦片粥",
+                "type": "dishName",
+                "start_idx": 1,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "帮我搜索一下红烧排骨。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧排骨",
+                "type": "dishName",
+                "start_idx": 6,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "怎么样煮方便面。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "煮方便面",
+                "type": "dishName",
+                "start_idx": 3,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "黑米红豆粥的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "黑米红豆粥",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "豆沙包。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "豆沙包",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "赵柏田鸡怎么做啊？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "田鸡",
+                "type": "ingredient",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "做黄焖小土豆怎么做啊？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "焖小土豆",
+                "type": "dishName",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "酱油鸡。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "酱油鸡",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "好吧，我想知道稻香排骨是怎么做的？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "稻香排骨",
+                "type": "dishName",
+                "start_idx": 7,
+                "end_idx": 10
+            }
+        ]
+    },
+    {
+        "text": "红烧牛肉面我想来一碗。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧牛肉面",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "帮我找出红烧肉的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧肉",
+                "type": "dishName",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "煲鸡汤。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "煲鸡汤",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "芒果西米露怎么做啊",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "芒果西米露",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "胡萝卜怎么炒好吃？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "胡萝卜",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "红烧肉的做法啊！",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧肉",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "就拉下的饺子怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "饺子",
+                "type": "dishName",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "酸辣藕丁的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "酸辣藕丁",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "用电压力锅怎么蒸米粉肉。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "蒸米粉肉",
+                "type": "dishName",
+                "start_idx": 7,
+                "end_idx": 10
+            },
+            {
+                "entity": "压力锅",
+                "type": "utensil",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "请问红烧肉的做法？你，你。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧肉",
+                "type": "dishName",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "孜然排骨怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "孜然排骨",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "干锅香辣虾",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "干锅香辣虾",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "肥肠的做法",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "肥肠",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "海虾的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "海虾",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "用菜籽油做面包",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "面包",
+                "type": "dishName",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "菜籽油",
+                "type": "ingredient",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "打豆浆剩下的豆渣怎样做，好吃？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "豆渣",
+                "type": "ingredient",
+                "start_idx": 6,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "脆瓜。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "脆瓜",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "灌汤小笼包怎样做。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "灌汤小笼包",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "做红烧肉怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧肉",
+                "type": "dishName",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "酸菜鱼怎样做",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "酸菜鱼",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "打了怎么做红烧肉的做法？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧肉",
+                "type": "dishName",
+                "start_idx": 5,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "蒜茄子怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "蒜茄子",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "木瓜汤怎么做",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "木瓜汤",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "炝拌土豆丝。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "炝拌土豆丝",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "宫爆鸡丁的菜谱。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "宫爆鸡丁",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "江苏路红薯粉怎么做好吃？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红薯粉",
+                "type": "ingredient",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "烧鸭怎么做",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "烧鸭",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "姐你红烧肉怎么做呀",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧肉",
+                "type": "dishName",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "臭豆腐怎么做啊？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "臭豆腐",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "做红烧肉。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧肉",
+                "type": "dishName",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "不懂饭的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "饭",
+                "type": "dishName",
+                "start_idx": 2,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "鸡蛋的做法",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "鸡蛋",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "红烧带鱼怎么做？你？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧带鱼",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "鱼香肉丝的做法啊！",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "鱼香肉丝",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "周黑鸭怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "鸭",
+                "type": "ingredient",
+                "start_idx": 2,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "那好，那你告诉我西红柿炒鸡蛋，怎么去做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "西红柿炒鸡蛋",
+                "type": "dishName",
+                "start_idx": 8,
+                "end_idx": 13
+            }
+        ]
+    },
+    {
+        "text": "干贝怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "干贝",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "怎么做？酸菜鱼？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "酸菜鱼",
+                "type": "dishName",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "鸡爪怎么炒？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "鸡爪",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "干锅鱼怎么做",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "干锅鱼",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "糖醋排骨怎么做？好了额，你。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "糖醋排骨",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "清蒸鱼怎么做？吴？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "清蒸鱼",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "土豆粉怎么做好吃？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "土豆粉",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "五梆瓜鸡蛋汤怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "鸡蛋汤",
+                "type": "dishName",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "刘林面怎么做啊？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "面",
+                "type": "ingredient",
+                "start_idx": 2,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "酸菜粉条肉的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "酸菜粉条",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            },
+            {
+                "entity": "肉",
+                "type": "ingredient",
+                "start_idx": 4,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "童子鸡的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "童子鸡",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "讯飞语点请你搜索一下番茄炒蛋怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "番茄炒蛋",
+                "type": "dishName",
+                "start_idx": 10,
+                "end_idx": 13
+            }
+        ]
+    },
+    {
+        "text": "红烧肉怎么煮啊",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧肉",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "面包怎么做",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "面包",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "请问鱼块的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "鱼块",
+                "type": "ingredient",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "猪大肠怎么炒？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "猪大肠",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "小猪哨糖醋排骨的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "糖醋排骨",
+                "type": "dishName",
+                "start_idx": 3,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "嗯咯鸡爪怎么做的。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "鸡爪",
+                "type": "ingredient",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "鲤鱼怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "鲤鱼",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "酸菜鱼，怎么烧？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "酸菜鱼",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "炸里鸡的做法。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "炸里鸡",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "不，做个红烧肉怎么做？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "红烧肉",
+                "type": "dishName",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "福寿鱼怎么煮比较好吃？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "福寿鱼",
+                "type": "ingredient",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "拔丝芋头怎么做",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "拔丝芋头",
+                "type": "dishName",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "给我看邮件",
+        "intent": "LAUNCH",
+        "entities": []
+    },
+    {
+        "text": "帮我发邮件给婷婷",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "婷婷",
+                "type": "name",
+                "start_idx": 6,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "替我回复这封邮件",
+        "intent": "REPLY",
+        "entities": []
+    },
+    {
+        "text": "我要回复这个邮件",
+        "intent": "REPLY",
+        "entities": []
+    },
+    {
+        "text": "发邮件给灿灿说明早我们一起跑步",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "明早我们一起跑步",
+                "type": "content",
+                "start_idx": 7,
+                "end_idx": 14
+            },
+            {
+                "entity": "灿灿",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "给我看新邮件",
+        "intent": "LAUNCH",
+        "entities": []
+    },
+    {
+        "text": "我想打开新邮件",
+        "intent": "LAUNCH",
+        "entities": []
+    },
+    {
+        "text": "我想要全部答复",
+        "intent": "REPLAY_ALL",
+        "entities": []
+    },
+    {
+        "text": "今天晚上有没有中国好声音呢？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "今天",
+                "type": "datetime_date",
+                "start_idx": 0,
+                "end_idx": 1
+            },
+            {
+                "entity": "晚上",
+                "type": "datetime_time",
+                "start_idx": 2,
+                "end_idx": 3
+            },
+            {
+                "entity": "中国好声音",
+                "type": "name",
+                "start_idx": 7,
+                "end_idx": 11
+            }
+        ]
+    },
+    {
+        "text": "你知道现在广东卫视在演什么吗？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "现在",
+                "type": "datetime_time",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "广东卫视",
+                "type": "tvchannel",
+                "start_idx": 5,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "今晚看什么电影？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "电影",
+                "type": "category",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "今晚",
+                "type": "datetime_time",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "金鹰卡通今天晚上放什么节目？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "今天",
+                "type": "datetime_date",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "晚上",
+                "type": "datetime_time",
+                "start_idx": 6,
+                "end_idx": 7
+            },
+            {
+                "entity": "金鹰卡通",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "电影频道今天放什么",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "今天",
+                "type": "datetime_date",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "电影频道",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "15号的我愿意",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "15号",
+                "type": "datetime_date",
+                "start_idx": 0,
+                "end_idx": 2
+            },
+            {
+                "entity": "我愿意",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "北京青年频道谁在说",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "谁在说",
+                "type": "name",
+                "start_idx": 6,
+                "end_idx": 8
+            },
+            {
+                "entity": "北京青年频道",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "看一下今天晚上广西台有没有警戒线？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "今天",
+                "type": "datetime_date",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "晚上",
+                "type": "datetime_time",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "警戒线",
+                "type": "name",
+                "start_idx": 13,
+                "end_idx": 15
+            },
+            {
+                "entity": "广西台",
+                "type": "tvchannel",
+                "start_idx": 7,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "世界军事中央台世界军事",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "世界军事",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            },
+            {
+                "entity": "中央台",
+                "type": "tvchannel",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "广西电视台现在播放什么节目？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "现在",
+                "type": "datetime_time",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "广西电视台",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "CCTV9明晚有转播仁心解码2呢",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "明晚",
+                "type": "datetime_time",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "仁心解码2",
+                "type": "name",
+                "start_idx": 10,
+                "end_idx": 14
+            },
+            {
+                "entity": "CCTV9",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "搜一下今天中午开始放郭的秀",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "今天",
+                "type": "datetime_date",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "中午",
+                "type": "datetime_time",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "郭的秀",
+                "type": "name",
+                "start_idx": 10,
+                "end_idx": 12
+            }
+        ]
+    },
+    {
+        "text": "读书频道上个星期五有播放新闻联播吗",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "上个星期五",
+                "type": "datetime_date",
+                "start_idx": 4,
+                "end_idx": 8
+            },
+            {
+                "entity": "新闻联播",
+                "type": "name",
+                "start_idx": 12,
+                "end_idx": 15
+            },
+            {
+                "entity": "读书频道",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "湖南卫视有什么节目",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "湖南卫视",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "现在有什么好的电影呢？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "电影",
+                "type": "category",
+                "start_idx": 7,
+                "end_idx": 8
+            },
+            {
+                "entity": "现在",
+                "type": "datetime_time",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "明晚真人秀频道有播放过百变大咖秀呢",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "明晚",
+                "type": "datetime_time",
+                "start_idx": 0,
+                "end_idx": 1
+            },
+            {
+                "entity": "百变大咖秀",
+                "type": "name",
+                "start_idx": 11,
+                "end_idx": 15
+            },
+            {
+                "entity": "真人秀频道",
+                "type": "tvchannel",
+                "start_idx": 2,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "湖北卫视今天下午六点以后开始播男生女生向前冲",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "今天",
+                "type": "datetime_date",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "下午六点以后",
+                "type": "datetime_time",
+                "start_idx": 6,
+                "end_idx": 11
+            },
+            {
+                "entity": "男生女生向前冲",
+                "type": "name",
+                "start_idx": 15,
+                "end_idx": 21
+            },
+            {
+                "entity": "湖北卫视",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "帮我查查北京电视台-6上周六开始美味的想念呢",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "上周六",
+                "type": "datetime_date",
+                "start_idx": 11,
+                "end_idx": 13
+            },
+            {
+                "entity": "美味的想念",
+                "type": "name",
+                "start_idx": 16,
+                "end_idx": 20
+            },
+            {
+                "entity": "北京电视台-6",
+                "type": "tvchannel",
+                "start_idx": 4,
+                "end_idx": 10
+            }
+        ]
+    },
+    {
+        "text": "中央六台的节目单",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "中央六台",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "回放昨晚的焦点访谈",
+        "intent": "LOOK_BACK",
+        "entities": [
+            {
+                "entity": "昨晚",
+                "type": "datetime_time",
+                "start_idx": 2,
+                "end_idx": 3
+            },
+            {
+                "entity": "焦点访谈",
+                "type": "name",
+                "start_idx": 5,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "明天安徽卫视演什么",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "明天",
+                "type": "datetime_date",
+                "start_idx": 0,
+                "end_idx": 1
+            },
+            {
+                "entity": "安徽卫视",
+                "type": "tvchannel",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "江西卫视三天之后放一站到底么",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "三天之后",
+                "type": "datetime_date",
+                "start_idx": 4,
+                "end_idx": 7
+            },
+            {
+                "entity": "一站到底",
+                "type": "name",
+                "start_idx": 9,
+                "end_idx": 12
+            },
+            {
+                "entity": "江西卫视",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "贵州卫视今晚看什么电视剧？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "电视剧",
+                "type": "category",
+                "start_idx": 9,
+                "end_idx": 11
+            },
+            {
+                "entity": "今晚",
+                "type": "datetime_time",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "贵州卫视",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "湖南卫视现在演什么节目",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "现在",
+                "type": "datetime_time",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "湖南卫视",
+                "type": "tvchannel",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "从广州到贵阳市的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "贵阳",
+                "type": "endLoc_city",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "广州",
+                "type": "startLoc_city",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "东营到济南的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "济南",
+                "type": "endLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "东营",
+                "type": "startLoc_city",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "后天去大连的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "大连",
+                "type": "endLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "后天",
+                "type": "startDate_date",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "查询大大后天广州到武汉的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "武汉",
+                "type": "endLoc_city",
+                "start_idx": 9,
+                "end_idx": 10
+            },
+            {
+                "entity": "大大后天",
+                "type": "startDate_date",
+                "start_idx": 2,
+                "end_idx": 5
+            },
+            {
+                "entity": "广州",
+                "type": "startLoc_city",
+                "start_idx": 6,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "十月四号从广州到北京的飞机票多少钱",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "北京",
+                "type": "endLoc_city",
+                "start_idx": 8,
+                "end_idx": 9
+            },
+            {
+                "entity": "十月四号",
+                "type": "startDate_date",
+                "start_idx": 0,
+                "end_idx": 3
+            },
+            {
+                "entity": "广州",
+                "type": "startLoc_city",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "查询上海到丽江飞机票的价格",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "丽江",
+                "type": "endLoc_city",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "上海",
+                "type": "startLoc_city",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "明天从桂林到杭州的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "杭州",
+                "type": "endLoc_city",
+                "start_idx": 6,
+                "end_idx": 7
+            },
+            {
+                "entity": "明天",
+                "type": "startDate_date",
+                "start_idx": 0,
+                "end_idx": 1
+            },
+            {
+                "entity": "桂林",
+                "type": "startLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "武汉到北京的飞机票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "北京",
+                "type": "endLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "武汉",
+                "type": "startLoc_city",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "有没有下周二到贵阳的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "贵阳",
+                "type": "endLoc_city",
+                "start_idx": 7,
+                "end_idx": 8
+            },
+            {
+                "entity": "下周二",
+                "type": "startDate_date",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "明天去徐州的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "徐州",
+                "type": "endLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "明天",
+                "type": "startDate_date",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "帮我看一下明天去北京的飞机",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "北京",
+                "type": "endLoc_city",
+                "start_idx": 8,
+                "end_idx": 9
+            },
+            {
+                "entity": "明天",
+                "type": "startDate_date",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "明天去纽约的航班。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "纽约",
+                "type": "endLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "明天",
+                "type": "startDate_date",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "查询今天上海到成都的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "成都",
+                "type": "endLoc_city",
+                "start_idx": 7,
+                "end_idx": 8
+            },
+            {
+                "entity": "今天",
+                "type": "startDate_date",
+                "start_idx": 2,
+                "end_idx": 3
+            },
+            {
+                "entity": "上海",
+                "type": "startLoc_city",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "查下上海到太原的机票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "太原",
+                "type": "endLoc_city",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "上海",
+                "type": "startLoc_city",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "上海到北京的飞机航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "北京",
+                "type": "endLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "上海",
+                "type": "startLoc_city",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "机票",
+        "intent": "QUERY",
+        "entities": []
+    },
+    {
+        "text": "去桂林的航班怎样",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "桂林",
+                "type": "endLoc_city",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "阜阳到温州的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "温州",
+                "type": "endLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "阜阳",
+                "type": "startLoc_city",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "七月三十一日上海虹桥到北京的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "北京",
+                "type": "endLoc_city",
+                "start_idx": 11,
+                "end_idx": 12
+            },
+            {
+                "entity": "七月三十一日",
+                "type": "startDate_date",
+                "start_idx": 0,
+                "end_idx": 5
+            },
+            {
+                "entity": "上海",
+                "type": "startLoc_city",
+                "start_idx": 6,
+                "end_idx": 7
+            },
+            {
+                "entity": "虹桥",
+                "type": "startLoc_poi",
+                "start_idx": 8,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "帮我查一下从济南到福州的机票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "福州",
+                "type": "endLoc_city",
+                "start_idx": 9,
+                "end_idx": 10
+            },
+            {
+                "entity": "济南",
+                "type": "startLoc_city",
+                "start_idx": 6,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "查询后天广州到上海的航班",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "上海",
+                "type": "endLoc_city",
+                "start_idx": 7,
+                "end_idx": 8
+            },
+            {
+                "entity": "后天",
+                "type": "startDate_date",
+                "start_idx": 2,
+                "end_idx": 3
+            },
+            {
+                "entity": "广州",
+                "type": "startLoc_city",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "感冒注意什么？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "感冒",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "糖尿病注意什么？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "糖尿病",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "更年期综合症。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "更年期综合症",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "肠胃炎怎么治？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "肠胃炎",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "得了关节炎怎么办？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "关节炎",
+                "type": "keyword",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "得了皮肤病怎么办？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "皮肤病",
+                "type": "keyword",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "鼻息肉",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "鼻息肉",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "甲亢怎么治疗？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "甲亢",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "多囊肾怎么治啊？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "多囊肾",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "内分泌失调了怎么调理？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "内分泌失调",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "包皮包茎",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "包皮包茎",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "乳腺癌。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "乳腺癌",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "黄疸",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "黄疸",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "暴发性紫癜",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "暴发性紫癜",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "肺结核要注意些啥",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "肺结核",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "过敏性鼻炎怎么治疗",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "过敏性鼻炎",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "痛经。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "痛经",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "如何治疗脚气",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "脚气",
+                "type": "keyword",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "破伤风该怎么处理",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "破伤风",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "帮我查一下2013年2月8日开奖的七星彩中奖号码",
+        "intent": "NUMBER_QUERY",
+        "entities": [
+            {
+                "entity": "2013年2月8日",
+                "type": "datetime_date",
+                "start_idx": 5,
+                "end_idx": 13
+            },
+            {
+                "entity": "七星彩",
+                "type": "name",
+                "start_idx": 17,
+                "end_idx": 19
+            }
+        ]
+    },
+    {
+        "text": "看一看七乐彩的信息",
+        "intent": "NUMBER_QUERY",
+        "entities": [
+            {
+                "entity": "七乐彩",
+                "type": "name",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "搜索25选5的获奖号码",
+        "intent": "NUMBER_QUERY",
+        "entities": [
+            {
+                "entity": "25选5",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "河北在哪里",
+        "intent": "POSITION",
+        "entities": [
+            {
+                "entity": "河北",
+                "type": "location_province",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "从济源市到河南省电信分公司怎么走",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "电信分公司",
+                "type": "endLoc_poi",
+                "start_idx": 8,
+                "end_idx": 12
+            },
+            {
+                "entity": "河南省",
+                "type": "endLoc_province",
+                "start_idx": 5,
+                "end_idx": 7
+            },
+            {
+                "entity": "济源市",
+                "type": "startLoc_city",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "嗯我想知道曲阜在什么地方",
+        "intent": "POSITION",
+        "entities": [
+            {
+                "entity": "曲阜",
+                "type": "location_area",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "龙口西路在哪里",
+        "intent": "POSITION",
+        "entities": [
+            {
+                "entity": "龙口西路",
+                "type": "location_poi",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "去金湖县城",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "金湖县城",
+                "type": "endLoc_poi",
+                "start_idx": 1,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "上海到北京怎么走",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "北京",
+                "type": "endLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "上海",
+                "type": "startLoc_city",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "玉照公园怎么走",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "玉照公园",
+                "type": "endLoc_poi",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "怎么去农业银行",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "农业银行",
+                "type": "endLoc_poi",
+                "start_idx": 3,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "南山医院到北大医院路线",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "北大医院",
+                "type": "endLoc_poi",
+                "start_idx": 5,
+                "end_idx": 8
+            },
+            {
+                "entity": "南山医院",
+                "type": "startLoc_poi",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "我想到科大讯飞走高速路线",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "科大讯飞",
+                "type": "endLoc_poi",
+                "start_idx": 3,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "从武汉到呼和浩特",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "呼和浩特",
+                "type": "endLoc_city",
+                "start_idx": 4,
+                "end_idx": 7
+            },
+            {
+                "entity": "武汉",
+                "type": "startLoc_city",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "帮我看一下到科大讯飞最快的是哪条路线",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "科大讯飞",
+                "type": "endLoc_poi",
+                "start_idx": 6,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "杭州到上海",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "上海",
+                "type": "endLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "杭州",
+                "type": "startLoc_city",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "北京西站在哪",
+        "intent": "POSITION",
+        "entities": [
+            {
+                "entity": "北京西站",
+                "type": "location_poi",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "导航到奉贤",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "奉贤",
+                "type": "endLoc_area",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "查查科大讯飞在哪儿",
+        "intent": "POSITION",
+        "entities": [
+            {
+                "entity": "科大讯飞",
+                "type": "location_poi",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "帮我查一下到狼牙山怎么走",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "狼牙山",
+                "type": "endLoc_poi",
+                "start_idx": 6,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "查查科大讯飞在哪里",
+        "intent": "POSITION",
+        "entities": [
+            {
+                "entity": "科大讯飞",
+                "type": "location_poi",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "新东站怎么走",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "新东站",
+                "type": "endLoc_poi",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "去红心中路怎么走",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "红心中路",
+                "type": "endLoc_poi",
+                "start_idx": 1,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "从科大讯飞到天鹅湖怎么走能不走高速",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "天鹅湖",
+                "type": "endLoc_poi",
+                "start_idx": 6,
+                "end_idx": 8
+            },
+            {
+                "entity": "科大讯飞",
+                "type": "startLoc_poi",
+                "start_idx": 1,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "去华强北的路怎么走",
+        "intent": "ROUTE",
+        "entities": [
+            {
+                "entity": "华强北",
+                "type": "endLoc_poi",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "查询合肥市植物园的位置",
+        "intent": "POSITION",
+        "entities": [
+            {
+                "entity": "合肥市植物园",
+                "type": "location_poi",
+                "start_idx": 2,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "2013年亚洲冠军联赛恒广州恒大比赛时间。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "亚洲冠军联赛",
+                "type": "category",
+                "start_idx": 5,
+                "end_idx": 10
+            },
+            {
+                "entity": "2013年",
+                "type": "datetime_date",
+                "start_idx": 0,
+                "end_idx": 4
+            },
+            {
+                "entity": "广州恒大",
+                "type": "name",
+                "start_idx": 12,
+                "end_idx": 15
+            }
+        ]
+    },
+    {
+        "text": "广州恒大比赛谁赢了。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "广州恒大",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "中超赛事预告，你。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "中超",
+                "type": "category",
+                "start_idx": 0,
+                "end_idx": 1
+            },
+            {
+                "entity": "预告",
+                "type": "type",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "宏大俱乐部赛程。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "宏大",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "中超赛事预告，从在哪里看呢？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "中超",
+                "type": "category",
+                "start_idx": 0,
+                "end_idx": 1
+            },
+            {
+                "entity": "预告",
+                "type": "type",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "中超比赛。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "中超",
+                "type": "category",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "武汉卓尔的赛程。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "武汉卓尔",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "广州恒大比赛比分。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "广州恒大",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            },
+            {
+                "entity": "比分",
+                "type": "type",
+                "start_idx": 6,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "发短信给王二白叫她明天过来玩",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "明天过来玩",
+                "type": "content",
+                "start_idx": 9,
+                "end_idx": 13
+            },
+            {
+                "entity": "王二白",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "给潘开国发短信",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "潘开国",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "发短信给王勋连说我很好",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "我很好",
+                "type": "content",
+                "start_idx": 8,
+                "end_idx": 10
+            },
+            {
+                "entity": "王勋连",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "发短信给子健晚上回家吃饭",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "晚上回家吃饭",
+                "type": "content",
+                "start_idx": 6,
+                "end_idx": 11
+            },
+            {
+                "entity": "子健",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "发消息给周磊",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "周磊",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "发短信方钰玲",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "方钰玲",
+                "type": "name",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "写短信给颖村",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "颖村",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "给杨凯发短信",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "杨凯",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "给李慧发个短信说我要回家",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "我要回家",
+                "type": "content",
+                "start_idx": 8,
+                "end_idx": 11
+            },
+            {
+                "entity": "李慧",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "发送短信给老婆我在三号楼三零幺刚才那个教室关门了",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "我在三号楼三零幺刚才那个教室关门了",
+                "type": "content",
+                "start_idx": 7,
+                "end_idx": 23
+            },
+            {
+                "entity": "老婆",
+                "type": "name",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "给孟南发短信",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "孟南",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "发条短信给杨桑",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "杨桑",
+                "type": "name",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "发短信给王曼希望你幸福",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "王曼",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "发短信给林晓云说我爱你",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "我爱你",
+                "type": "content",
+                "start_idx": 8,
+                "end_idx": 10
+            },
+            {
+                "entity": "林晓云",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "传简讯给家里",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "家里",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "发信息给瀌瀌",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "瀌瀌",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "我要发信息给高鹤航",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "高鹤航",
+                "type": "name",
+                "start_idx": 6,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "给查乐发短信",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "查乐",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "给栾佳佳发短信说回到济南了",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "回到济南了",
+                "type": "content",
+                "start_idx": 8,
+                "end_idx": 12
+            },
+            {
+                "entity": "栾佳佳",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "给石荣福发短信",
+        "intent": "SEND",
+        "entities": [
+            {
+                "entity": "石荣福",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "点一首爱情买卖来听听",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "爱情买卖",
+                "type": "song",
+                "start_idx": 3,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "我叫小沈阳这首歌",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "我叫小沈阳",
+                "type": "song",
+                "start_idx": 0,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "播放音乐喜帖街。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "喜帖街",
+                "type": "song",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "随便唱首歌。",
+        "intent": "PLAY",
+        "entities": []
+    },
+    {
+        "text": "给我来一首，相见恨晚的音乐。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "相见恨晚",
+                "type": "song",
+                "start_idx": 6,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "she的歌",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "she",
+                "type": "artist",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "我想听期待这首歌",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "期待",
+                "type": "song",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "来一首隐形的翅膀。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "隐形的翅膀",
+                "type": "song",
+                "start_idx": 3,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "来一首不可以。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "不可以",
+                "type": "song",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "哦来一首忘情水",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "忘情水",
+                "type": "song",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "歌曲白天不懂夜的黑",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "白天不懂夜的黑",
+                "type": "song",
+                "start_idx": 2,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "我想听星月神话",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "星月神话",
+                "type": "song",
+                "start_idx": 3,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "来一首有点舍不得",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "有点舍不得",
+                "type": "song",
+                "start_idx": 3,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "播放音乐月亮之上的。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "月亮之上",
+                "type": "song",
+                "start_idx": 4,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "我要听张雨生的歌。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "张雨生",
+                "type": "artist",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "来点歌听听",
+        "intent": "PLAY",
+        "entities": []
+    },
+    {
+        "text": "来一首我们的歌谣。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "我们的歌谣",
+                "type": "song",
+                "start_idx": 3,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "给我放一首最炫民族风。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "最炫民族风",
+                "type": "song",
+                "start_idx": 5,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "放一首青花瓷哦哦",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "青花瓷",
+                "type": "song",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "毛阿敏的歌",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "毛阿敏",
+                "type": "artist",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "播放上海滩。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "上海滩",
+                "type": "song",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "来首出师表",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "出师表",
+                "type": "song",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "啊，社会新闻。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "社会",
+                "type": "category",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "泰州新闻。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "泰州",
+                "type": "location_city",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "是否还有其他关于钓鱼岛的新闻",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "钓鱼岛",
+                "type": "keyword",
+                "start_idx": 8,
+                "end_idx": 10
+            }
+        ]
+    },
+    {
+        "text": "今日头条新闻。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "今日头条",
+                "type": "media",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "钓鱼岛新闻",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "钓鱼岛",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "k新闻想听新闻。",
+        "intent": "PLAY",
+        "entities": []
+    },
+    {
+        "text": "t我要听新闻。",
+        "intent": "PLAY",
+        "entities": []
+    },
+    {
+        "text": "盘锦新闻。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "盘锦",
+                "type": "location_city",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "我想听重庆新闻。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "重庆",
+                "type": "location_city",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "现在有什么热点新闻？",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "热点",
+                "type": "category",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "现在",
+                "type": "datetime_time",
+                "start_idx": 0,
+                "end_idx": 1
+            }
+        ]
+    },
+    {
+        "text": "关注一下今天的欧洲杯新闻",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "今天",
+                "type": "datetime_date",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "欧洲杯",
+                "type": "keyword",
+                "start_idx": 7,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "搜索最新新闻。",
+        "intent": "PLAY",
+        "entities": []
+    },
+    {
+        "text": "该我读新闻。",
+        "intent": "PLAY",
+        "entities": []
+    },
+    {
+        "text": "占田你给我放一下最近的新闻。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "最近",
+                "type": "datetime_date",
+                "start_idx": 8,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "帮我查一查今天的新闻。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "今天",
+                "type": "datetime_date",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "么，哥来一下最新的新闻。",
+        "intent": "PLAY",
+        "entities": []
+    },
+    {
+        "text": "哦，听新闻。",
+        "intent": "PLAY",
+        "entities": []
+    },
+    {
+        "text": "我想知道今天的娱乐新闻。",
+        "intent": "PLAY",
+        "entities": [
+            {
+                "entity": "娱乐",
+                "type": "category",
+                "start_idx": 7,
+                "end_idx": 8
+            },
+            {
+                "entity": "今天",
+                "type": "datetime_date",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "等，请播报新闻",
+        "intent": "PLAY",
+        "entities": []
+    },
+    {
+        "text": "有什么好看的校园小说",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "校园",
+                "type": "category",
+                "start_idx": 6,
+                "end_idx": 7
+            },
+            {
+                "entity": "好看",
+                "type": "popularity",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "搜一搜三毛的小说",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "三毛",
+                "type": "author",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "我要看唯美童话小说",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "唯美童话",
+                "type": "category",
+                "start_idx": 3,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "我要看末世进化小说",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "末世进化",
+                "type": "category",
+                "start_idx": 3,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "搜索极品天王",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "极品天王",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "找找三毛的爱情小说",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "三毛",
+                "type": "author",
+                "start_idx": 2,
+                "end_idx": 3
+            },
+            {
+                "entity": "爱情",
+                "type": "category",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "我想看现在很流行的小说",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "流行",
+                "type": "popularity",
+                "start_idx": 6,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "我要看图文小说",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "图文",
+                "type": "category",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "你背首唐诗给我听听啊",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "唐",
+                "type": "dynasty",
+                "start_idx": 3,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "来一首李清照的词",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "李清照",
+                "type": "author",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "来一首白居易的诗",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "白居易",
+                "type": "author",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "唐代诗人李白。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "李白",
+                "type": "author",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "唐",
+                "type": "dynasty",
+                "start_idx": 0,
+                "end_idx": 0
+            }
+        ]
+    },
+    {
+        "text": "搜索一下白居易的诗。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "白居易",
+                "type": "author",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "火气冲天，下一句是什么？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "火气冲天",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 3
+            },
+            {
+                "entity": "下一句",
+                "type": "queryField",
+                "start_idx": 5,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "念首唐诗吧！",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "唐",
+                "type": "dynasty",
+                "start_idx": 2,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "给我背一首诗。",
+        "intent": "DEFAULT",
+        "entities": []
+    },
+    {
+        "text": "朗读一首李白的诗呗！",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "李白",
+                "type": "author",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "背首宋词。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "宋",
+                "type": "dynasty",
+                "start_idx": 2,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "呦呦鹿鸣的下一句。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "呦呦鹿鸣",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 3
+            },
+            {
+                "entity": "下一句",
+                "type": "queryField",
+                "start_idx": 5,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "那给我背静夜思。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "静夜思",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "朗读岳飞的满江红。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "岳飞",
+                "type": "author",
+                "start_idx": 2,
+                "end_idx": 3
+            },
+            {
+                "entity": "满江红",
+                "type": "name",
+                "start_idx": 5,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "天王盖地虎的下一句是什么？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "天王盖地虎",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 4
+            },
+            {
+                "entity": "下一句",
+                "type": "queryField",
+                "start_idx": 6,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "唐诗哦。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "唐",
+                "type": "dynasty",
+                "start_idx": 0,
+                "end_idx": 0
+            }
+        ]
+    },
+    {
+        "text": "说个李白的诗来听听。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "李白",
+                "type": "author",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "造化钟神秀的下一句是什么？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "造化钟神秀",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 4
+            },
+            {
+                "entity": "下一句",
+                "type": "queryField",
+                "start_idx": 6,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "读首唐诗来听听。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "唐",
+                "type": "dynasty",
+                "start_idx": 2,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "阿妈，来一首白居易的诗。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "白居易",
+                "type": "author",
+                "start_idx": 6,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "尽在不言中下一句是什么？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "尽在不言中",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 4
+            },
+            {
+                "entity": "下一句",
+                "type": "queryField",
+                "start_idx": 5,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "来一首琵琶行。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "琵琶行",
+                "type": "name",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "背一首李白的诗来听听。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "李白",
+                "type": "author",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "搜索岳飞的诗满江红。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "岳飞",
+                "type": "author",
+                "start_idx": 2,
+                "end_idx": 3
+            },
+            {
+                "entity": "满江红",
+                "type": "name",
+                "start_idx": 6,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "背诵唐诗三百首静夜思。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "唐",
+                "type": "dynasty",
+                "start_idx": 2,
+                "end_idx": 2
+            },
+            {
+                "entity": "静夜思",
+                "type": "name",
+                "start_idx": 7,
+                "end_idx": 9
+            }
+        ]
+    },
+    {
+        "text": "来首纳兰性德的词。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "纳兰性德",
+                "type": "author",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "背一首声声慢。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "声声慢",
+                "type": "name",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "若相惜不弃下一句是什么？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "若相惜不弃",
+                "type": "keyword",
+                "start_idx": 0,
+                "end_idx": 4
+            },
+            {
+                "entity": "下一句",
+                "type": "queryField",
+                "start_idx": 5,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "背首杜甫的诗啊？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "杜甫",
+                "type": "author",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "背唐诗李白侠客行",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "李白",
+                "type": "author",
+                "start_idx": 3,
+                "end_idx": 4
+            },
+            {
+                "entity": "唐",
+                "type": "dynasty",
+                "start_idx": 1,
+                "end_idx": 1
+            },
+            {
+                "entity": "侠客行",
+                "type": "name",
+                "start_idx": 5,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "读首唐诗",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "唐",
+                "type": "dynasty",
+                "start_idx": 2,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "朗诵一首李白的诗词。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "李白",
+                "type": "author",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "毛泽东的诗哦。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "毛泽东",
+                "type": "author",
+                "start_idx": 0,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "我背一首生查子。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "生查子",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "我给我念一首李白的诗吧？",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "李白",
+                "type": "author",
+                "start_idx": 6,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "打开安徽交通台",
+        "intent": "LAUNCH",
+        "entities": [
+            {
+                "entity": "安徽交通台",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "帮忙讲几个谜语给我猜。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "谜语",
+                "type": "category",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "说个谜语给我猜猜。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "谜语",
+                "type": "category",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "帮我出一个灯谜。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "灯谜",
+                "type": "category",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "出一个谜语给我猜猜吧！",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "谜语",
+                "type": "category",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "你说谜语给我猜。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "谜语",
+                "type": "category",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "给我打个谜语，啊！",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "谜语",
+                "type": "category",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "再讲一个谜语吧！",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "谜语",
+                "type": "category",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "讲个谜语吧，辣。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "谜语",
+                "type": "category",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "不辣，猜谜语。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "谜语",
+                "type": "category",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "动物谜语。",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "动物谜语",
+                "type": "category",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "南京熊猫股票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "南京熊猫",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "泰山石油股票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "泰山石油",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "中海油服股票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "中海油服",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "查询下北京首创的股票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "北京首创",
+                "type": "name",
+                "start_idx": 3,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "科大讯飞的股价如何",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "科大讯飞",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "我想了解地产板块股票现在怎么样",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "地产板块",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "罗顿发展的股票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "罗顿发展",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "查寻轻舞风股票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "轻舞风",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "科大讯飞的股票是多少a",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "科大讯飞",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "查询标准股份的股票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "标准股份",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "查询一下南方航空的股票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "南方航空",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "查询大北农的股票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "大北农",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "查询股票00230",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "00230",
+                "type": "code",
+                "start_idx": 4,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "查询中国石化的股价",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "中国石化",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "保利地产的股票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "保利地产",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "中国建设银行的行情",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "建设银行",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "查寻三星股价",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "三星",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "中国石化的股价怎么样",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "中国石化",
+                "type": "name",
+                "start_idx": 0,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "今天上证指数是几点",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "上证指数",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "查找科大讯飞股票的股价",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "科大讯飞",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "呼叫浦蒲",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "浦蒲",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "我要打电话给洪云刚",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "洪云刚",
+                "type": "name",
+                "start_idx": 6,
+                "end_idx": 8
+            }
+        ]
+    },
+    {
+        "text": "打电话给张帕楼",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "张帕楼",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "打给孩子的爸",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "孩子的爸",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "打电话给阿华",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "阿华",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "打给宋成钢",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "宋成钢",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "请打电话给沈晨浩",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "沈晨浩",
+                "type": "name",
+                "start_idx": 5,
+                "end_idx": 7
+            }
+        ]
+    },
+    {
+        "text": "给叶君恩打电话",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "叶君恩",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "呼叫王希",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "王希",
+                "type": "name",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "给爸爸打电话",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "爸爸",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "打电话给子明",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "子明",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "打电话温正军",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "温正军",
+                "type": "name",
+                "start_idx": 3,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "给曹广义打电话",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "曹广义",
+                "type": "name",
+                "start_idx": 1,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "打电话给hello word",
+        "intent": "DIAL",
+        "entities": [
+            {
+                "entity": "hello word",
+                "type": "name",
+                "start_idx": 4,
+                "end_idx": 13
+            }
+        ]
+    },
+    {
+        "text": "查寻上海到北京的火车票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "北京",
+                "type": "endLoc_city",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "上海",
+                "type": "startLoc_city",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "帮我查一下明天去郑州的火车票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "郑州",
+                "type": "endLoc_city",
+                "start_idx": 8,
+                "end_idx": 9
+            },
+            {
+                "entity": "明天",
+                "type": "startDate_date",
+                "start_idx": 5,
+                "end_idx": 6
+            }
+        ]
+    },
+    {
+        "text": "查询广州到北京的火车",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "北京",
+                "type": "endLoc_city",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "广州",
+                "type": "startLoc_city",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    },
+    {
+        "text": "从广州到南昌的火车票时刻表",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "南昌",
+                "type": "endLoc_city",
+                "start_idx": 4,
+                "end_idx": 5
+            },
+            {
+                "entity": "广州",
+                "type": "startLoc_city",
+                "start_idx": 1,
+                "end_idx": 2
+            }
+        ]
+    },
+    {
+        "text": "查一下从杭州到上海高铁时刻表",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "高铁",
+                "type": "category",
+                "start_idx": 9,
+                "end_idx": 10
+            },
+            {
+                "entity": "上海",
+                "type": "endLoc_city",
+                "start_idx": 7,
+                "end_idx": 8
+            },
+            {
+                "entity": "杭州",
+                "type": "startLoc_city",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "查一下从广州到南宁的火车票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "南宁",
+                "type": "endLoc_city",
+                "start_idx": 7,
+                "end_idx": 8
+            },
+            {
+                "entity": "广州",
+                "type": "startLoc_city",
+                "start_idx": 4,
+                "end_idx": 5
+            }
+        ]
+    },
+    {
+        "text": "有没有徐州到洛阳的火车票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "洛阳",
+                "type": "endLoc_city",
+                "start_idx": 6,
+                "end_idx": 7
+            },
+            {
+                "entity": "徐州",
+                "type": "startLoc_city",
+                "start_idx": 3,
+                "end_idx": 4
+            }
+        ]
+    },
+    {
+        "text": "查询临沂到济南的火车票",
+        "intent": "QUERY",
+        "entities": [
+            {
+                "entity": "济南",
+                "type": "endLoc_city",
+                "start_idx": 5,
+                "end_idx": 6
+            },
+            {
+                "entity": "临沂",
+                "type": "startLoc_city",
+                "start_idx": 2,
+                "end_idx": 3
+            }
+        ]
+    }
+]
